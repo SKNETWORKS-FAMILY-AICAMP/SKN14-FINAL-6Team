@@ -105,7 +105,7 @@
 
 ---
 ## ​ 기술 스택 (Tech Stack)
-- **이미지**: ![시스템 아키텍쳐](/img/system_archi.png)
+![시스템 아키텍쳐](/img/system_archi.png)
 
 ### ​ Front-End
 <p>
