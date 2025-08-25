@@ -109,6 +109,7 @@ ORDER 데이터베이스는 **사용자의 주문 이력과 주문 상세 내역
 ## ⚙️ 시스템 아키텍쳐
 ![시스템 아키텍쳐](/img/system_archi.png)
 
+## ​ 📂 기술 스텍
 ### ​ Front-End
 <p>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/> 
@@ -116,7 +117,6 @@ ORDER 데이터베이스는 **사용자의 주문 이력과 주문 상세 내역
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
 </p>
 
-## ​ 📂 기술 스텍
 ### ​​ Back-End
 <p>
   <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white"/>
