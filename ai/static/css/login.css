@@ -1,0 +1,13 @@
+.auth-gradient {
+  background: linear-gradient(135deg, #2dd4bf 0%, #10b981 100%);
+}
+
+.auth-card {
+  backdrop-filter: blur(10px);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.input-focus:focus {
+  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.2);
+  border-color: #10b981;
+}
