@@ -1,12 +1,12 @@
 # Qook - AI 신선식품 챗봇 플랫폼
 
-![Qook Logo](static/images/qook_logo.png)
+![Qook Logo](img/qook_logo.png)
 
 ## 👥 팀 구성 및 역할
 
 | **하종수 (PM)** | **김광령** | **김성민** | **문상희** | **서은선** | **송유나** |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| <img src="static/images/종수.png" width="6500" alt="하종수"> | <img src="static/images/광령.png" width="7500" alt="김광령"> | <img src="static/images/성민.png" width="6700" alt="김성민"> | <img src="static/images/상히.png" width="5500" alt="문상희"> | <img src="static/images/은선.png" width="7200" alt="서은선"> | <img src="static/images/유나.png" width="13000" alt="송유나"> |
+| <img src="img/종수.png" width="6500" alt="하종수"> | <img src="img/광령.png" width="7500" alt="김광령"> | <img src="img/성민.png" width="6700" alt="김성민"> | <img src="img/상히.png" width="5500" alt="문상희"> | <img src="img/은선.png" width="7200" alt="서은선"> | <img src="img/유나.png" width="13000" alt="송유나"> |
 | 프로젝트 총괄, 코드 병합·디버깅, AWS 배포 | 텍스트·이미지 기반 레시피/상품 검색 | 데이터베이스 구성, 마이페이지 제작, AWS 배포 | LangGraph 라우팅, 이미지 기반 환불, 멀티턴 채팅 | 데이터 수집, Vector DB · RAG | 랜딩/챗봇 UI, 이미지 기반 환불 |
 
 ---
@@ -75,25 +75,25 @@
 ## 📖 주요 기능
 
 ### 1. AI 챗봇 쇼핑
-![사과구매하고싶어요.png](static/images/사과구매하고싶어요.png)
+![사과구매하고싶어요.png](img/사과구매하고싶어요.png)
 - **자연어 상품 검색**: "사과 구매하고 싶어"
 - **원터치 주문**: 대화만으로 장바구니 담기부터 결제까지
 - **재고 실시간 확인**: 품절 상품 대체재 자동 제안
 
 ### 2. 비전 AI 레시피 검색
-![사과샐러드레시피검검색.png](static/images/사과샐러드레시피검검색.png)
+![사과샐러드레시피검검색.png](img/사과샐러드레시피검검색.png)
 - **이미지 기반 레시피 탐색**: 음식 사진 업로드로 레시피 찾기
 - **재료 자동 매칭**: 레시피 재료와 쇼핑몰 상품 연결
 
 ### 3. 통합 고객서비스
-![사과환불.png](static/images/사과환불.png)
+![사과환불.png](img/사과환불.png)
 - **FAQ 자동 응답**: 일반적인 질문 즉시 해결
 - **주문 조회**: "내 주문 상태 알려줘" - 실시간 배송 추적
 - **스마트 환불**: 증빙 사진 업로드로 자동 환불 처리
 - **상담사 연결**: 복잡한 문의 시 실시간 전문 상담
 
 ### 4. 개인화 서비스
-![개인정보수정.png](static/images/개인정보수정.png)
+![개인정보수정.png](img/개인정보수정.png)
 - **멤버십 시스템**: Basic, Gold, Premium 등급별 혜택
 - **구독 서비스**: 정기 주문 자동화, VIP 전담 매니저 고객 응대, 신상품 우선 구매
 - **알레르기 필터링**: 개인 알레르기 정보 고려한 안전한 레시피
@@ -112,10 +112,10 @@
 마켓컬리의 FAQ와 이용약관을 수집·분석하고, 이를 기반으로 당사 서비스 환경에 적합한 Qook 전용 더미데이터를 생성
 
 ### 🗂️ ERD
-![ERD](static/images/ERD.png)
+![ERD](img/ERD.png)
 
 ## 🏗️ 시스템 아키텍처 및 유저플로우
-![system_archi](static/images/qook_system_architecture.png)
+![system_archi](img/qook_system_architecture.png)
 
 
 ---
@@ -133,7 +133,7 @@
 ---
 
 ## 🔄 LangGraph Workflow
-![랭그래프워크플로우.png](static/images/랭그래프워크플로우.png)
+![랭그래프워크플로우.png](img/랭그래프워크플로우.png)
 - 상품/레시피 탐색(텍스트·이미지·웹크롤링)
 
 - 슬롯 추출 & Text2SQL (개인화 컨텍스트 반영)
@@ -244,4 +244,5 @@
 
 ---
 
-![쿼카.jpg](static/images/쿼카.jpg)
+
+![쿼카.jpg](img/쿼카.jpg)
